@@ -13,6 +13,6 @@
         enabled: True
     - name: Deploy static website
       copy:
-        src: index.html
-        dest: /var/www/html/
+        src: /target/spring-petclinic-2.6.0-SNAPSHOT.jar
+        dest: /opt/apache-tomcat-8.5.32/webapps
 ...
