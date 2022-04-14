@@ -15,5 +15,6 @@
       copy:
         src: /var/lib/jenkins/workspace/ansible-petclinic/target/spring-petclinic-2.6.0-SNAPSHOT.jar
         dest: home/target
-        shell: "java -jar home/target/*.jar"
+    - name : Run jar file
+      shell: "java -jar home/target/*.jar"
 ...
